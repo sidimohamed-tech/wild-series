@@ -1,3 +1,11 @@
+const items = [
+  {
+    id: 1,
+    title: "sss",
+    user_id: 2,
+  },
+];
+
 import type { RequestHandler } from "express";
 
 // Import access to data
