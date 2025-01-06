@@ -18,6 +18,10 @@ router.get("/api/programs", programActions.browse);
 router.get("/api/programs/:id", programActions.read);
 router.post("/api/programs", programActions.add);
 
+import categoryActions from "./modules/category/categoryActions";
+router.get("/api/category", categoryActions.browse);
+router.get("/api/category/:id", categoryActions.read);
+router.post("/api/category", categoryActions.add);
 /* ************************************************************************* */
 import sayActions from "./modules/say/sayActions";
 router.get("/", sayActions.sayWelcome);
